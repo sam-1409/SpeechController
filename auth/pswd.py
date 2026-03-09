@@ -5,7 +5,7 @@ def ask_password():
     result = {'flag': None}
 
     def on_enter_key_press(event=None):
-        PASSWORD = 'sam1409'
+        PASSWORD = '<YOUR PASSWORD>'
         pswd = text_box.get()
         if PASSWORD == pswd:
             result['flag'] = 1
