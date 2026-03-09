@@ -43,7 +43,7 @@ def greet():
 def search(prompt):
     if 5 < len(prompt) < 200:
         const = ". give response with to the point precision in 1 to 2 lines."
-        API_KEY = "AIzaSyDskvlAV8Z5_zeK9nFvYtnO8VeyHCKufpk"
+        API_KEY = "<Your API Key>"
         genai.configure(api_key=API_KEY)
         model = genai.GenerativeModel('gemini-2.5-flash')
         try:
